@@ -1,0 +1,12 @@
+.contentHeader 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle
+{
+    color: #526d82;
+    font-size: 40px;
+    font-weight: bold;
+}

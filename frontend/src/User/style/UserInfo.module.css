@@ -1,0 +1,26 @@
+.UserInfoContainer
+{
+    background-color: #dde6dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contentUserInfoLeft
+{
+    display: flex;
+    gap: 20px;
+}
+.contentUserInfoRight
+{
+    background: #fff;
+    flex: 1;
+    border-radius: 30px;
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    margin-right: 20px;
+    justify-content: flex-start;
+    height: 300px;
+    flex-direction: column;
+}

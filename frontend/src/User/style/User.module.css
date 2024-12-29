@@ -1,0 +1,17 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.Usercontainer
+{
+    background-color: #ebf0eb;
+    display: flex;
+    justify-content: cetner;
+    align-items: center;
+    height: 100vh;
+}
+.dashboard {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,14 @@
+.contentFoot
+{
+    font-size: 1.3rem;
+    margin-top: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bluemoonIcon
+{
+    font-size: 1.4rem;
+}

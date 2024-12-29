@@ -1,0 +1,25 @@
+.userFeeContainer
+{
+    background-color: #dde6dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contentLeft
+{
+    display: flex;
+    gap: 20px;
+}
+.contentRight
+{
+    background: #fff;
+    flex: 1;
+    border-radius: 30px;
+    display: flex;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin-right: 20px;
+    justify-content: center;
+    height: 501px;
+}

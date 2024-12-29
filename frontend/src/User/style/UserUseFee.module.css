@@ -1,0 +1,25 @@
+.userUseFeeContainer
+{
+    background-color: #dde6dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.UseFeecontentLeft
+{
+    display: flex;
+    gap: 20px;
+}
+.UseFeecontentRight
+{
+    background: #fff;
+    flex: 1;
+    border-radius: 30px;
+    display: flex;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin-right: 20px;
+    justify-content: center;
+    height: 200px;
+}

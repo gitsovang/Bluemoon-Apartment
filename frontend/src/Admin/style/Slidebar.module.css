@@ -1,0 +1,89 @@
+.menu 
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    height: 94vh;
+}
+.logo
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    color: #27374d;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menulist
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menulist .items
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #27374d;
+}
+.menulist .items:hover {
+    background-color: #27374d;
+    color: #dde6ed;
+}
+.bttOnclass
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bttOn
+{
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.bttOffclass
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bttOn:hover
+{
+    transition: 0.5s;
+    background-color: #27374d;
+    color: white;
+}
+.bttOff
+{
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.bttOff:hover
+{
+    transition: 0.5s;
+    background-color: rgb(97, 47, 47);
+    color: white;
+}
