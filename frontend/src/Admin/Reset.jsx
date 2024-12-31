@@ -5,8 +5,7 @@ import axios from 'axios';
 const Reset = ({selectedMonth, onEdit}) => {
   
     const [error, setError] = useState(null);
-    const [status, setStatus] = useState('');
-    const [userId, SetUserId] = useState(null)
+    const [userId, SetUserId] = useState(null);
     const modalRef = useRef(null);
 
     const [selectedMonthState] = useState(selectedMonth);
@@ -55,7 +54,7 @@ const Reset = ({selectedMonth, onEdit}) => {
         <form onSubmit={handleSave} method="dialog">
         <Link to = "/userfee" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
         onClick={() => modalRef.current.close()}>✕</Link>
-        <h3 className="font-bold text-lg">Edit Payment Status</h3>
+        <h3 className="font-bold text-lg">Reset</h3>
           <div className='mt-4 space-y-2'>
               <span>ID</span>
               <br/>

@@ -12,7 +12,6 @@ const Invoice = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [userData, setuserData] = useState([])
     const [error, setError] = useState(null);
-    const [loadingTime, setLoadingTime] = useState(null)
     const isMounted = useRef(true);
 
     const [selectedMonth, setSelectedMonth] = useState('January');
@@ -119,7 +118,7 @@ const Invoice = () => {
     </div>
     <div className = "flex items-center gap-10">
         <label htmlFor="month">Select Month :</label>
-        <select value = {selectedMonth} onChange = {handleMonthChange} id="month">
+        <select value = {selectedMonth} onChange = {handleMonthChange} id = "month">
         <option value="January">January</option>
         <option value="February">February</option>
         <option value="March">March</option>
